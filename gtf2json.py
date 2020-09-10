@@ -21,5 +21,5 @@ for each_line_of_text in fileinput.input(gtf_file):
 
         output.append(record)
         
-y= json.dumps(output,indent=2)
+y= json.dumps(output,indent=1)
 print(y)
